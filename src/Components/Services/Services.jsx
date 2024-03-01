@@ -6,7 +6,7 @@ export default function Services() {
         <div className="card">
           <div className="icon">
             <img
-              src="/icons/code.svg"
+              src="/portfolio/icons/code.svg"
               width={150}
               height={150}
               alt="code"
@@ -24,7 +24,7 @@ export default function Services() {
         <div className="card">
           <div className="icon">
             <img
-              src="/icons/palette.svg"
+              src="/portfolio/icons/palette.svg"
               width={150}
               height={150}
               alt="palette"
@@ -42,7 +42,7 @@ export default function Services() {
         <div className="card">
           <div className="icon">
             <img
-              src="/icons/figma.svg"
+              src="/portfolio/icons/figma.svg"
               width={150}
               height={150}
               alt="figma"

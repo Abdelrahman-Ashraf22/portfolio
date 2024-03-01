@@ -29,7 +29,7 @@ export default function Stats() {
           <div className="info">
             <span className="material-icons-outlined">
               <img
-                src="/icons/user.svg"
+                src="/portfolio/icons/user.svg"
                 width={40}
                 height={40}
                 alt="person"
@@ -46,7 +46,7 @@ export default function Stats() {
           <div className="info">
             <span className="material-icons-outlined">
               <img
-                src="/icons/project.svg"
+                src="/portfolio/icons/project.svg"
                 width={40}
                 height={40}
                 alt="projects"
@@ -63,7 +63,7 @@ export default function Stats() {
           <div className="info">
             <span className="material-icons-outlined">
               <img
-                src="/icons/earth.svg"
+                src="/portfolio/icons/earth.svg"
                 width={40}
                 height={40}
                 alt="countries"
@@ -80,7 +80,7 @@ export default function Stats() {
           <div className="info">
             <span className="material-icons-outlined">
               <img
-                src="/icons/dollar.svg"
+                src="/portfolio/icons/dollar.svg"
                 width={40}
                 height={40}
                 alt="money"

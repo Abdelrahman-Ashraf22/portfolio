@@ -12,7 +12,7 @@ export default function Footer() {
           aria-label="facebook"
         >
           <img
-            src="/icons/facebook.svg"
+            src="/portfolio/icons/facebook.svg"
             width={30}
             height={30}
             alt="facebook"
@@ -23,7 +23,7 @@ export default function Footer() {
           to="https://www.linkedin.com/in/abdelrahman-ashraf-883992216"
         >
           <img
-            src="/icons/linkedin.svg"
+            src="/portfolio/icons/linkedin.svg"
             width={30}
             height={30}
             alt="linkedin"
@@ -31,7 +31,7 @@ export default function Footer() {
         </Link>
         <Link aria-label="github" to="https://github.com/Abdelrahman-Ashraf22">
           <img
-            src="/icons/github.svg"
+            src="/portfolio/icons/github.svg"
             width={30}
             height={30}
             alt="github"
@@ -39,7 +39,7 @@ export default function Footer() {
         </Link>
         <Link aria-label="behance" to="https://www.behance.net/abdoashraf20">
           <img
-            src="/icons/behance.svg"
+            src="/portfolio/icons/behance.svg"
             width={30}
             height={30}
             alt="behance"

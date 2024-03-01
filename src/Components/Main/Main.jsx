@@ -27,7 +27,7 @@ export default function Main() {
             target="_blank"
           >
             <img
-              src="/icons/facebook.svg"
+              src="/portfolio/icons/facebook.svg"
               width={30}
               height={30}
               alt="facebook"
@@ -39,7 +39,7 @@ export default function Main() {
             aria-label="linkedin"
           >
             <img
-              src="/icons/linkedin.svg"
+              src="/portfolio/icons/linkedin.svg"
               width={30}
               height={30}
               alt="linkedin"
@@ -51,7 +51,7 @@ export default function Main() {
             target="_blank"
           >
             <img
-              src="/icons/github.svg"
+              src="/portfolio/icons/github.svg"
               width={30}
               height={30}
               alt="github"
@@ -63,7 +63,7 @@ export default function Main() {
             target="_blank"
           >
             <img
-              src="/icons/behance.svg"
+              src="/portfolio/icons/behance.svg"
               width={30}
               height={30}
               alt="behance"

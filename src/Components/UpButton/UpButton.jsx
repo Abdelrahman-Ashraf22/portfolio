@@ -5,7 +5,7 @@ export default function UpButton() {
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
     >
       <img
-        src="/icons/arrow-up.svg"
+        src="/portfolio/icons/arrow-up.svg"
         width={25}
         height={25}
         alt="up-arrow"

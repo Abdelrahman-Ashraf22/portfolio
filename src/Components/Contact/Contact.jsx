@@ -7,7 +7,7 @@ export default function Contact() {
           <div className="icon">
             <img
               alt="facebook"
-              src="/icons/phone.svg"
+              src="/portfolio/icons/phone.svg"
               width={50}
               height={50}
             ></img>
@@ -22,7 +22,7 @@ export default function Contact() {
           <div className="icon">
             <img
               alt="facebook"
-              src="/icons/email.svg"
+              src="/portfolio/icons/email.svg"
               width={50}
               height={50}
             ></img>

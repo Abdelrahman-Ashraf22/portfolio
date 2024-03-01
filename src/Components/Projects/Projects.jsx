@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="project-card">
           <div className="project-img">
             <img
-              src="/imgs/1.webp"
+              src="/portfolio/imgs/1.webp"
               alt="e-commerce-web-app"
               width={"100%"}
               height={"100%"}
@@ -34,7 +34,7 @@ export default function Projects() {
         <div className="project-card">
           <div className="project-img">
             <img
-              src="/imgs/2.webp"
+              src="/portfolio/imgs/2.webp"
               alt="to-do-list"
               width={"100%"}
               height={"100%"}
@@ -60,7 +60,7 @@ export default function Projects() {
         <div className="project-card">
           <div className="project-img">
             <img
-              src="/imgs/3.webp"
+              src="/portfolio/imgs/3.webp"
               alt="weather-app"
               width={"100%"}
               height={"100%"}
@@ -86,7 +86,7 @@ export default function Projects() {
         <div className="project-card">
           <div className="project-img">
             <img
-              src="/imgs/4.webp"
+              src="/portfolio/imgs/4.webp"
               alt="quotes-generator"
               width={"100%"}
               height={"100%"}
@@ -112,7 +112,7 @@ export default function Projects() {
         <div className="project-card">
           <div className="project-img">
             <img
-              src="/imgs/5.webp"
+              src="/portfolio/imgs/5.webp"
               alt="youtube-clone"
               width={"100%"}
               height={"100%"}
@@ -139,7 +139,7 @@ export default function Projects() {
         <div className="project-card">
           <div className="project-img">
             <img
-              src="/imgs/6.webp"
+              src="/portfolio/imgs/6.webp"
               alt="twitter-clone"
               width={"100%"}
               height={"100%"}
