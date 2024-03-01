@@ -1,0 +1,1 @@
+import{j as o}from"./index-DDqy-Car.js";function t(){return o.jsx("span",{className:"up",onClick:()=>window.scrollTo({top:0,behavior:"smooth"}),children:o.jsx("img",{src:"/portfolio/icons/arrow-up.svg",width:25,height:25,alt:"up-arrow"})})}export{t as default};
