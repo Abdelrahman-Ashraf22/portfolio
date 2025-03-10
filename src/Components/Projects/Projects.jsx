@@ -21,7 +21,7 @@ export default function Projects() {
             <b className="project-title">
               <span>E-Commerce</span>
               <Link
-                to="https://abdelrahman-ashraf22.github.io/e-commerce-web-app/"
+                to="https://store-up-six.vercel.app/"
                 target="_blank"
                 className="more-details"
               >
