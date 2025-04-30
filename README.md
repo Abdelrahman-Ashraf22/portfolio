@@ -19,6 +19,7 @@ This portfolio is built using the following technologies:
 - **Smooth Scrolling**: Navigate through sections with smooth scrolling effects.
 - **Email Contact Form**: Easily get in touch with me through the integrated email form.
 - **Animated Transitions**: Enjoy smooth animations as you navigate through the portfolio.
+- **Dark Mode**: Toggle between dark/light mode.
 
   <img src="/public/desktop.png">
   <img src="/public/mobile1.png">
