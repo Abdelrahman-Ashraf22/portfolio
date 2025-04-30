@@ -1,0 +1,314 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #33a5e4;
+  --secondary-color: #c23f9d;
+  --text-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  font-display: swap;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: 0.5s all ease-in-out;
+}
+
+/* Toggle light mode */
+body.light-mode {
+  background-color: #e0e0e0;
+}
+
+/* Toggle dark mode */
+body.dark-mode {
+  background-color: #111723;
+  color: var(--text-color);
+}
+
+/* Home */
+.gradient-text {
+  background-image: linear-gradient(
+    to right,
+    rgba(194, 63, 157, 1),
+    rgba(139, 89, 178, 0.8),
+    rgba(75, 144, 226, 0.6),
+    rgba(80, 227, 194, 0.4)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Stlying the head-title */
+.center-title {
+  margin: 50px auto;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    rgba(194, 63, 157, 1),
+    rgba(139, 89, 178, 0.8),
+    rgba(75, 144, 226, 0.6)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Home btn */
+.home .view:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: var(--secondary-color);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-95%) translateY(-25%) rotate(45deg);
+  transform: translateX(-95%) translateY(-25%) rotate(45deg);
+}
+
+.home .view:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+/* Services */
+.card-item {
+  font-family: sans-serif;
+}
+
+.card:nth-child(odd) {
+  align-self: flex-end;
+  background-color: #131b28;
+}
+
+/* Portfolio */
+.projects .works {
+  font-family: "Raleway";
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+figure.fig {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: var(--text-color);
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+figure.fig *,
+figure.fig *:before,
+figure.fig *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+figure.fig img {
+  max-width: 100%;
+  height: 230px;
+  backface-visibility: hidden;
+  vertical-align: top;
+  opacity: 0.9;
+  object-fit: cover;
+}
+figure.fig .title {
+  position: absolute;
+  top: 58%;
+  left: 25px;
+  padding: 5px 10px 10px;
+}
+figure.fig .title:before,
+figure.fig .title:after {
+  height: 2px;
+  width: 400px;
+  position: absolute;
+  content: "";
+  background-color: var(--text-color);
+}
+figure.fig .title:before {
+  top: 0;
+  left: 10px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+figure.fig .title:after {
+  bottom: 0;
+  right: 10px;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+figure.fig .title div:before,
+figure.fig .title div:after {
+  width: 2px;
+  height: 300px;
+  position: absolute;
+  content: "";
+  background-color: var(--secondary-color);
+}
+figure.fig .title div:before {
+  top: 10px;
+  right: 0;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+figure.fig .title div:after {
+  bottom: 10px;
+  left: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+figure.fig h2,
+figure.fig h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.fig h2 {
+  font-weight: 400;
+  transition: 0.3s all ease-in-out;
+}
+
+figure.fig h3 {
+  display: block;
+  font-weight: 700;
+  background-color: var(--text-color);
+  padding: 5px 10px;
+  color: #000000;
+}
+figure.fig figcaption {
+  position: absolute;
+  bottom: 42%;
+  left: 25px;
+  text-align: left;
+  opacity: 0;
+  padding: 5px 60px 5px 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+figure.fig figcaption p {
+  margin: 0;
+}
+figure.fig a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+figure.fig:hover img,
+figure.fig.hover img {
+  zoom: 1;
+  filter: alpha(opacity=35);
+  -webkit-opacity: 0.35;
+  opacity: 0.35;
+}
+figure.fig:hover .title:before,
+figure.fig.hover .title:before,
+figure.fig:hover .title:after,
+figure.fig.hover .title:after,
+figure.fig:hover .title div:before,
+figure.fig.hover .title div:before,
+figure.fig:hover .title div:after,
+figure.fig.hover .title div:after {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+figure.fig:hover .title:before,
+figure.fig.hover .title:before,
+figure.fig:hover .title:after,
+figure.fig.hover .title:after {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+figure.fig:hover figcaption,
+figure.fig.hover figcaption {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* Contact */
+.contact .discuss h2 {
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    rgba(194, 63, 157, 1),
+    rgba(139, 89, 178, 0.8),
+    rgba(75, 144, 226, 0.6),
+    rgba(80, 227, 194, 0.4)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.contact .contact-form form input:focus,
+.contact .contact-form form input:hover,
+.contact .contact-form form textarea:focus,
+.contact .contact-form form textarea:hover {
+  border: 1px solid var(--primary-color);
+  outline: 1px solid var(--primary-color);
+}
+
+.contact .contact-form form button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 290%;
+  width: 140%;
+  background: var(--primary-color);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.contact .contact-form form button:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.contact .contact-form form button:hover {
+  transition: all 0.5s ease-in-out;
+  color: var(--text-color);
+}
+
+/* Spinner */
+.spinnerContainer {
+  height: calc(100vh - 5rem);
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes l15 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
